@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+<div class=" h-[400px] w-[390px] m-auto mt-24 pb-6 pt-20 bg-gradient-to-t  from-zinc-700 to-zinc-900 rounded-2xl flex relative">
+
+<div class="absolute top-[50px] left-[20px] right-[20px]">
+    <h1 class="text-white text-2xl">Welcome to Calculating Machine</h1>
+</div>
+
+
+<div class=" flex gap-4 pl-5 pt-12 flex-col" >
+<button onclick="abxButton()" class="bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">abs(x)</button>
+<button onclick="acosButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">acos(x)</button>
+<button onclick="acoshButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">acosh(x)</button>
+<button onclick="asinButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">asin(x)</button>
+<button onclick="asinhButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">asinh(x)</button>
+</div>
+
+<div class=" flex gap-4 pl-3 pt-12 flex-col" >
+    <button onclick="ExpButton()" class="bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">exp(x)</button>
+    <button onclick="logButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">log(x)</button>
+    <button onclick="sqrtButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">sqrt(x)</button>
+    <button onclick="cubertButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">cbrt(x)</button>
+    <button onclick="powButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">pow(x,y)</button>
+    </div>
+
+
+    <div class=" flex gap-4 pl-3 pt-12 flex-col" >
+        <button onclick="sinButton()" class="bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">sin(x)</button>
+        <button onclick="tanButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">tan(x)</button>
+        <button onclick="cosButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">cos(x)</button>
+        <button onclick="maxButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">max</button>
+        <button onclick="minButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">min</button>
+        </div>
+
+        <div class=" flex gap-4 pl-3 pt-12 flex-col" >
+            <button onclick="truncButton()" class="bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">trunc(x)</button>
+            <button onclick="randButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">random()</button>
+            <button onclick="roundButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">round(x)</button>
+            <button onclick="piButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">PI</button>
+            <button onclick="eButton()" class=" bg-slate-500 text-white text-xs font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">E</button>
+            </div>
+
+            <div class=" flex gap-4 pl-3 pt-12 flex-col" >
+                <button onclick="modlusButton()" class="bg-orange-500 text-white text-sm font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">%</button>
+                <button onclick="additionButton()" class=" bg-orange-500 text-white text-sm font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">+</button>
+                <button onclick="minusButton()" class=" bg-orange-500 text-white text-sm font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">-</button>
+                <button onclick="multiplyButton()" class=" bg-orange-500 text-white text-sm font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">*</button>
+                <button onclick="divisionButton()" class=" bg-orange-500 text-white text-sm font-semibold flex justify-center items-center h-[40px] w-[60px] rounded-full">/</button>
+                </div>
+
+</div>
+
+
+
+
+ <script src="./typescript/script.js"></script> 
+
+</body>
+</html>
